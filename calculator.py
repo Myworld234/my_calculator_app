@@ -59,12 +59,12 @@ def calculate(num1, num2, operator_symbol):
     else:
         return "Error: Invalid "
 
-
+#When equation to txt file..
 def write_equation(equation):
     with open("equations.txt", "a") as file:
         file.write(equation + '\n')
 
-
+#reading equation from txt file 
 def read_equations(file_name):
     try:
         with open(file_name, "r") as file:
