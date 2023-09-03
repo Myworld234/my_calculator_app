@@ -44,14 +44,14 @@ if __name__ == '__main__':
     main()
 
 #if user
-def calculate(num1, num2, operator):
-    if operator == '+':
+def calculate(num1, num2, operator_symbol):
+    if operator_symbol == '+':
         return num1 + num2
-    elif operator == '-':
+    elif operator_symbol == '-':
         return num1 - num2
-    elif operator == '*':
+    elif operator_symbol == '*':
         return num1 * num2
-    elif operator == '/':
+    elif operator_symbol == '/':
         if num2 != 0:
             return num1 / num2
         else:
