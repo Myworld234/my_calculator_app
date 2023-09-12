@@ -60,4 +60,3 @@ If you have any questions, suggestions, or feedback, please feel free to [contac
 
 ---
 
-You can fill in the specific details, such as your GitHub username, collaborators' usernames, and contact email. This README structure provides a clear and organized overview of your calculator app project on GitHub.
